@@ -22,7 +22,7 @@ A Claude skill that translates English text into standard Bahasa Melayu followin
 ## Installation
 
 1. Download the repo or the `SKILL.md` file (right click and save as)
-2. Add it to your Claude skills directory in your Claude account (e.g. `/mnt/skills/user/dbp-translator/SKILL.md`)
+2. Add it to your Claude skills directory (undr Customize) in your Claude account (e.g. `/mnt/skills/user/dbp-translator/SKILL.md`)
 
 Or, if you have the packaged `.skill` file, install it directly in Claude.
 
