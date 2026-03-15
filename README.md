@@ -53,7 +53,7 @@ MIT Licence
 
 ---
 
-# 🇲🇾 Bahasa Melayu
+# Bahasa Melayu
 
 # Kemahiran Penterjemah DBP untuk Claude
 
