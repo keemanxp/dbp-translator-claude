@@ -48,5 +48,58 @@ You can also request specific output formats:
 > Platform berasaskan pengkomputeran awan ini membolehkan kerjasama yang lancar dalam kalangan pasukan yang tersebar, dengan memanfaatkan cerapan dipacu kecerdasan buatan bagi meningkatkan produktiviti.
 
 ## Licence
+MIT Licence
 
-This skill is shared freely. Use it, adapt it, improve it.
+
+---
+
+# 🇲🇾 Bahasa Melayu
+
+# Kemahiran Penterjemah DBP untuk Claude
+
+**Penulis:** Chuah Kee Man
+
+Kemahiran Claude yang menterjemahkan teks bahasa Inggeris ke bahasa Melayu standard mengikut konvensyen [Dewan Bahasa dan Pustaka (DBP)](https://www.dbp.gov.my/).
+
+## Apa yang Dilakukan
+
+- Menterjemahkan bahasa Inggeris ke bahasa Melayu merangkumi semua jenis teks — dokumen rasmi, kandungan teknikal/akademik, penulisan kreatif & salinan pemasaran, serta teks harian
+- Menggunakan **bahasa Melayu standard DBP** secara ketat (tanpa varian bahasa Indonesia)
+- Menandakan istilah yang tidak pasti atau baharu dengan nota ringkas di samping memberikan terjemahan terbaik yang tersedia
+- Menyokong format output yang fleksibel: terjemahan sebaris, sebelah-menyebelah (EN ↔ BM), atau dokumen `.docx` yang boleh dimuat turun
+- Mengekalkan format sumber, dengan menyesuaikan struktur apabila ia lebih semula jadi dalam bahasa Melayu
+
+## Ciri Utama
+
+- **Pematuhan DBP** — menggunakan bentuk Malaysian (*kerana* bukan *karena*, *maklumat* bukan *informasi*, *hospital* bukan *rumah sakit*) dan istilah yang diluluskan DBP
+- **Kesedaran daftar bahasa** — menyesuaikan nada mengikut bahan sumber, daripada frasa *surat rasmi* yang formal hingga salinan pemasaran yang bertenaga
+- **Pengendalian istilah pintar** — menandakan istilah yang tiada padanan DBP yang mantap (contohnya jargon teknologi terkini) dengan nota sebaris, supaya anda sentiasa tahu terjemahan mana yang kukuh dan mana yang anggaran terbaik
+- **Kelancaran semula jadi** — menterjemahkan untuk makna dan kebolehbacaan, bukan perkataan demi perkataan
+
+## Pemasangan
+
+1. Muat turun repositori atau fail `SKILL.md`
+2. Tambahkan ke direktori kemahiran Claude anda (contohnya `/mnt/skills/user/dbp-translator/SKILL.md`)
+
+Atau, jika anda mempunyai fail `.skill` yang telah dibungkus, pasang terus dalam Claude.
+
+## Penggunaan
+
+Setelah dipasang, kemahiran ini akan dicetuskan secara automatik apabila anda meminta Claude menterjemahkan bahasa Inggeris ke bahasa Melayu. Contohnya:
+
+- *"Translate this to BM: [teks anda]"*
+- *"Terjemah ke Bahasa Melayu: [teks anda]"*
+- *"Tukar ke BM: [teks anda]"*
+
+Anda juga boleh meminta format output tertentu:
+
+- **Sebelah-menyebelah:** *"Translate this to BM in a side-by-side format"*
+- **Dokumen:** *"Translate this to BM and give me a Word doc"*
+
+## Contoh
+
+**Bahasa Inggeris:**
+> The cloud-based platform enables seamless collaboration across distributed teams, leveraging AI-driven insights to boost productivity.
+
+**Bahasa Melayu (Standard DBP):**
+> Platform berasaskan pengkomputeran awan ini membolehkan kerjasama yang lancar dalam kalangan pasukan yang tersebar, dengan memanfaatkan cerapan dipacu kecerdasan buatan bagi meningkatkan produktiviti.
